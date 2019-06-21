@@ -2,13 +2,14 @@
     <div id="home">
         <v-header/>
         <swiper></swiper>
-
+        <icons></icons>
     </div>
 </template>
 
 <script>
 import HomeHeader from '@/pages/home/components/Header.vue'
 import HomeSwiper from '@/pages/home/components/Swiper.vue'
+import HomeIcons from '@/pages/home/components/Icons.vue'
 export default {
     data(){
         return{
@@ -16,7 +17,8 @@ export default {
         }
     },components:{
         'v-header':HomeHeader,
-        'swiper':HomeSwiper
+        'swiper':HomeSwiper,
+        'icons':HomeIcons
     }
 }
 </script>
